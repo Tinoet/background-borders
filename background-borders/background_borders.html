@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>background_borders</title>
+  <style>
+/* borders have three properties width,color,stlye */
+#box-1{
+  background-color: blanchedalmond;
+  border: 3px red solid;
+  border-radius: 10px;
+  /* border radius is used for round borders */
+
+}
+/*  you can add only border top */
+#box-2{
+  background: #333;
+  color: #fff;
+  border-top:blue solid 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#box-3{
+  /* you can add background image properties together: url,bg-repeat,bg-position,bg-size */
+  background-image: url(./img/stars.jpg);
+  background-repeat: no-repeat;
+  background-position: center ;
+  /* background-size: ; */
+  color: #fff;
+  height: 300px;
+  width: 600px;
+}
+#box-4{
+  background: url(./img/leaf.png ) no-repeat center center;
+  background-attachment: fixed;
+  /* use the attachment property to fix images */
+  /* height: 300px;
+  width: 600px; */
+
+}
+  </style>
+</head>
+<body>
+  <!-- jpgs dont have transperant bg -->
+  <!-- pngs have a transparent bg -->
+  <div id="box-1">
+    <h3>box one</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div id="box-2"><br>
+    <h3>box two</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div id="box-3">
+    <h3>box-three</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div id="box-4">
+    <h3>box-four</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+</body>
+</html>
